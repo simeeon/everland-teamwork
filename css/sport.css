@@ -1,0 +1,68 @@
+.list-sport-articles {
+	/*border: 1px solid black;*/
+	width:100%; /*parent .article width:57% == 540px; */
+	margin-bottom: 20px;
+
+}
+ul.secondary-sport-articles li {
+	margin-bottom: 0px;
+	height:130px;
+	/*width: 98%;*/
+}
+ul.secondary-sport-articles li:hover {
+	background: #003162;
+	color: #fff;
+}
+
+/*ul.secondary-sport-articles li a:link,a:visited*/ 
+ul.secondary-sport-articles li a {
+  border-bottom: 0;
+  color:red:;
+}
+
+/*each li from list of small articles preview */
+.topic {
+	padding: 10px 10px;
+	height: 120px;
+	position: relative;
+}
+
+.topic img {
+	/*border:1px solid red;*/
+	width: 30%;
+	max-width: 30%;
+	height: 95%;
+	position: absolute;
+	left: 0;
+	padding: 2px 2px;
+}
+.topic-info {
+	/*border:1px solid purple;*/
+	width: 66%;
+	position: absolute;
+	right:0;
+
+}
+
+ul.secondary-sport-articles li a.title{
+	/*color: rgb(66, 148, 182);*/
+	font-size: 1rem;
+	font-weight: normal;
+	color: orange; /*#003162;*/
+}
+/*ul.secondary-sport-articles li a.title {*/
+/*,
+ul.secondary-sport-articles li a.title:hover {*/
+/*	color:orange;
+	cursor:pointer;
+	text-decoration: underline;
+}*/
+ul.secondary-sport-articles li a.title:hover {
+	color:orange;
+	cursor:pointer;
+	text-decoration: underline;
+}
+.topic-info p {
+	margin: 20px auto;
+	font-size: 0.8rem;
+}
